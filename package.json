@@ -1,10 +1,9 @@
 {
   "name": "my-qwik-empty-starter",
-  "description": "Blank project with routing included",
+  "description": "Just a simple web page that allows me to transfer files from other devices in the same LAN to my desktop.",
   "engines": {
     "node": "^18.17.0 || ^20.3.0 || >=21.0.0"
   },
-  "engines-annotation": "Mostly required by sharp which needs a Node-API v9 compatible runtime",
   "private": true,
   "type": "module",
   "scripts": {
@@ -26,13 +25,13 @@
     "@builder.io/qwik": "^1.18.0",
     "@builder.io/qwik-city": "^1.18.0",
     "@eslint/js": "latest",
-    "@types/node": "20.19.0",
-    "eslint": "9.32.0",
+    "@types/node": "^22",
+    "eslint": "9.39.2",
     "eslint-plugin-qwik": "^1.18.0",
-    "globals": "16.4.0",
-    "prettier": "3.6.2",
+    "globals": "16.5.0",
+    "prettier": "3.7.4",
     "typescript": "5.4.5",
-    "typescript-eslint": "8.38.0",
+    "typescript-eslint": "8.51.0",
     "typescript-plugin-css-modules": "latest",
     "undici": "*",
     "vite": "7.2.6",
